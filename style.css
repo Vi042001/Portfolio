@@ -29,13 +29,109 @@ body {
  a{
     color: rgb(135, 143, 151);
     transition: all 300ms cubic-bezier(0.075, 0.82, 0.165, 1);
-    e9;
+
  }
  ul li a:hover{
     transform: scale(1.2);
      text-shadow: none;
      color: white;
-     }
+    }
+   .info{
+      margin-left: 12%;
+      margin-top: 12%;
+     
+
+   }
+   .info h1{
+      font-size: 50px;
+      color: whitesmoke;
+      margin-bottom: 8px;
+   }
+   span{
+      color: coral;
+   }
+   .info p{
+      color:whitesmoke;
+      line-height: 20px;
+      font-size: 18px;
+   }
+   .info a{
+   
+   padding: 9px 18px;
+   text-decoration: none;
+   color: coral;   
+    display: inline-block;
+    margin:20px 0 ;
+    border-radius: 5px;
+     border: 5px solid;
+   }
+   .img-box{
+      width: 45%;
+      height: 80%;
+      position: absolute;
+      bottom: 0;
+      right: 100px;
+
+   }
+   .img-box img{
+      height: 110%;
+      position: absolute;
+      left: 30%;
+      width: 75%;
+      bottom: 0;
+      opacity: 1;
+   } 
+   /* .social{
+      display: flex;
+      justify-content:right;
+     gap: 0.5em;;
+      height: 2rem;
+      
+      padding: 0;
+      
+   } */
+   .social {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+      height: 2rem;
+      position: absolute;
+      top: 280px;
+      right:30px;
+
+      }
+
+  .social p{
+      color: coral;
+      writing-mode: vertical-rl; 
+      margin-bottom: 10px;
+     
+   }
+
+   .social img{
+      width: 30px;
+      height: 60px;
+      margin-left: auto; 
+    margin-bottom: 5px;
+     
+   } 
+   .about {
+      padding: 170px;
+      
+  } 
+  .about h1.About {
+   font-size: 35px; 
+   color: whitesmoke; 
+  }    
+  .about p {
+   font-size: 16px; 
+   color: whitesmoke; 
+   line-height: 1.2; 
+   padding-left: 50px;
+   padding-top: 10px;
+   
+}
+ 
 
 
    
